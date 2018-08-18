@@ -6,6 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "serve": "polymer serve --module-resolution node -p 4444 --open",
+    "proxy": "browser-sync start --p http://localhost:4444 --files \"**/*\"",
     "watch": "browser-sync start --server --files \"**/*\""
   },
   "keywords": [],
