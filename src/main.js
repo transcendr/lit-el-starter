@@ -1,1 +1,6 @@
-console.log("main.mjs inited");
+import {
+    LitElement,
+    html
+} from '@polymer/lit-element';
+
+console.log('Litness', LitElement);
