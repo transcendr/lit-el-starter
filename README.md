@@ -13,3 +13,11 @@ Clone the repo and cd into the project root directory. Choose a branch (from the
 `npm run proxy`
 
 **serve** creates spins up a server using polymer CLI with flag `module-resolution` set to node in order to properly handle imported module paths, and **proxy** spins up a browser-sync instance to at port 3000, proxying the polymer server running on port 4444 for live dev reload. Edit package.json to modify the ports used.
+
+---
+
+## Branches
+
+To use the following list, run `git checkout <branch-name>`
+
+- **feature/test-component** - Implements the minimal example from the [Polymer docs](https://github.com/Polymer/lit-element#minimal-example)
