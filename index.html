@@ -11,13 +11,18 @@
 
 <body>
 
-    <h1>Hello, Lit EL Starter Thing!</h1>
-    <test-component mood="lit, bro"></test-component>
+    <!-- Used for example of render into DOM element via 
+         _createRoot() -->
+    <div id="my-clock-root"></div>
 
-    <p>This branch implements the minimal example from the
+    <!-- Used for example of render into element childNodes 
+         via _createRoot() by returning this or a shadowRoot -->
+    <my-clock format="12"></my-clock>
+
+    <p>This branch implements a full LitElement component API example -
         <strong>
-            <a href="https://github.com/Polymer/lit-element#minimal-example" target="_blank">
-                docs here
+            <a href="https://github.com/Polymer/lit-element#api-documentation" target="_blank">
+                API docs here
             </a>
         </strong>
     </p>
